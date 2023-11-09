@@ -1,0 +1,199 @@
+
+.tinymce-container {
+    position: relative;
+    font-family: "Century Gothic", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border: solid black; */
+    background-color: ghostwhite;
+    /* border: solid rgba(211, 211, 211, 0.15); */
+    border-radius: 20px;
+  }
+  
+
+  
+.tox-tinymce {
+  /* Add your desired styles for the TinyMCE editor here */
+  /* border: solid black 10px !important; */
+  outline: none !important;
+  /* background-color: rgba(211, 211, 211, 0.02); */
+  /* font-family: inherit; */
+}
+
+.mce-content-body[data-mce-placeholder] {
+  position: relative;
+  font-family: "Century Gothic";
+  /* font-weight: 600 !important; */
+  /* font-size: 15px; */
+}
+
+.tox:not(.tox-tinymce-inline) .tox-editor-header:not(.tox-editor-dock-transition) {
+  transition: box-shadow .5s;
+  background-color: transparent;
+}
+
+.tox.tox-tinymce-aux .tox-toolbar__overflow {
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 0;
+  background-color: ghostwhite !important;
+}
+
+.mce-content-body[data-mce-placeholder] {
+  position: relative;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 500px){
+  .tox .tox-menubar {
+    display: none !important;
+  }
+}
+
+
+
+.filepond--root .filepond--credits[style] {
+  top: 0;
+  bottom: auto;
+  margin-top: 14px;
+  display: none;
+}
+/* .tox-tinymce .tox-toolbar  {
+  /* Add your desired styles for the TinyMCE editor here */
+  /* border: solid black 10px !important; */
+  /* outline: none !important;
+  background-color: aliceblue; */
+/*} */
+  @media (max-width: 768px) {
+    .tinymce-container .tox-statusbar {
+      display: none;
+    }
+  }
+
+
+
+  .editor {
+    border: solid black;
+  }
+  /* label { */
+    /* color: blue; */
+    /* font-size: 100px; */
+  /* } */
+  /* .filepond--root {
+    color: yellow;
+    border: solid blue;
+    background: pink;
+  } */
+
+
+
+  
+  .filepond--drop-label{
+    font-family: "Century Gothic";
+    color: blue;
+    color: rgb(0, 0, 63);
+    font-size: 12px !important;
+    font-weight: 700;
+    padding: 20px;
+  }
+/* 
+  .filepond--label-action {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aquamarine;
+    font-size: 10px ;
+  } */
+
+  .filepond--panel-root{
+    border: dashed blue;
+    border-color: rgb(0, 0, 63);
+    background-color: white;
+    /* background-color: ghostwhite; */
+    font-family: inherit;
+  }
+
+  #input-title-label {
+    font-size: 15px 24px;
+  }
+
+  #input-title {
+    padding: 20px !important;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .post-btn {
+    width: 100%;
+    padding: 10px 20px;
+    font-family: inherit;
+    background-color: rgb(0, 0, 63);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+
+
+  .topic-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* background-color: rgba(211, 211, 211, 0.15);
+    border-radius: 20px; */
+    padding: 20px;
+    max-height: 20vh;
+    overflow-y: auto;
+    color: rgb(0, 0, 63);
+  }
+
+  .topic-select span {
+    padding: 3px 9px;
+    font-size: 12.5px;
+    font-weight: 600;
+    /* color: rgb(0, 0, 63); */
+    border: solid rgb(0, 0, 63) 2px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  
+  .topic-selected {
+    background-color: rgb(0, 0, 63);
+    color: white;
+  }
+
+  .choose-topics {
+    margin-top: 20px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    max-height: 35vh;
+    overflow: auto;
+  }
+
+  .choose-topics > p {
+    color: rgb(0, 0, 63);
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #post-status-label {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+  }
+
+  #post-status {
+    font-size: 15px;
+    font-family: inherit;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+

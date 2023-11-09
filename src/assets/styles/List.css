@@ -1,0 +1,252 @@
+.tabs-list {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+    list-style-type: none;
+    /* background-color: rgba(189, 189, 221, 0.5); */
+    /* background-color: rgb(0,0,63); */
+    width: 100%;
+    /* color: white; */
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tab.react-tabs__tab--selected {
+    /* border-bottom: 2px solid #333; */
+    /* border: solid black 2px; */
+    font-weight: bold;
+    /* background-color: rgb(0,0,63); */
+    color: white;
+    color: rgb(0,0,63);
+    border-bottom: solid rgb(0,0,63) 2px;
+}
+
+.tab {
+    padding: 3px 20px;
+    /* border-radius: 25px; */
+    font-weight: 600;
+    color: #333;
+    /* color: white; */
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    outline: none;
+}
+
+.list-top1 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+
+.post-list-hdr {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.tab-panel {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a {
+    color: black;
+}
+
+.post-list-item {
+    color: black;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .pCrt {
+        display: none;
+    }
+}
+
+.post-list-item > div {
+    margin: 10px;
+    margin-left: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.post-list-item span {
+    /* background-color: rgb(0,0,63); */
+    padding: 5px 15px;
+    /* width: 30px;
+    height: 7px; */
+    font-size: 13px;
+    font-weight: 600;
+    /* color: white; */
+    border-radius: 20px;
+    border: solid black 1px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-dots {
+    border: none;
+    border-radius: 20px;
+    padding: 4px 6px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* background-color: transparent; */
+    /* cursor: pointer; */
+}
+
+.three-dots > img {
+    width: 12px;
+    /* height: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-other {
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+/* .xyz {
+    position: relative;
+} */
+
+.more-options {
+    display: none;
+    
+    /* position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: ghostwhite; */
+}
+
+.more-options button {
+    font-family: inherit;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: solid rgb(0,0,63);
+    border: none;
+    background-color: white;
+    color: rgb(0,0,63);
+}
+
+.more-options button:hover {
+    background-color: rgb(0,0,63, 0.5);
+    /* border: solid white; */
+    color: white;
+}
+
+
+.show-cont {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: pink;
+    background-color: rgb(0,0,63, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    /* margin-left: 100px; */
+    z-index: 30;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    top: 0;
+}
+
+
+.comment-list {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.comment-show {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.comment-show button {
+    font-family: inherit;
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    /* border-radius: 20px; */
+    background-color: white;
+    border: solid rgb(0,0,63) 1.5px;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .comment-show button {
+        font-size: 11px;
+        border: solid rgb(0,0,63) 0.5px;
+    }
+}
+
+.comment-show button:hover {
+    background-color: rgb(0,0,63);
+    color: white;
+}
+
+.post-comment {
+    /* border-top: solid rgb(0,0,63) ; */
+    width: fit-content;
+    border-bottom: solid rgb(0,0,63) 1px;
+    padding: 20px;
+}
+
+.comment-info {
+    word-break: break-all;
+}
+
+.comment-info > :first-child {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.comment-info > :last-child {
+    font-size: 12px;
+}
+
+.comment-info > :last-child i {
+    font-size: 9px;
+}
+
+.topic-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.topic-list > div {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.one-user > span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.one-user > h4 {
+    font-size: 13px
+}
+
+.one-user {
+    border: solid black 1px;
+    padding: 10px;
+}
