@@ -9,7 +9,7 @@ const createPost = async(post) => {
     }
     formData.append("topics", sTopics)
     const token = localStorage.getItem("token")
-    const response = await fetch("http://localhost:3000/posts/create", {
+    const response = await fetch("http://localhost:3000/posts", {
         method: "POST",
         headers: {
             "Authorization": `Bearer ${token}`
@@ -17,8 +17,8 @@ const createPost = async(post) => {
         body: formData
     })
 
-    const data = await response.json()
-    console.log(data)
+    // const data = await response.json()
+    // console.log(data)
     window.location.replace("/posts")
 }
 

@@ -1,6 +1,6 @@
 const createTopic = async(topic) => {
     const token = localStorage.getItem("token")
-    const response = await fetch("http://localhost:3000/topics/create", {
+    const response = await fetch("http://localhost:3000/topics", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
