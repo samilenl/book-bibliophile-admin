@@ -37,15 +37,8 @@ HTML5
 
 __Third Party Libraries__: 
 
-   [react-filepond](https://github.com/pqina/react-filepond)
-   
-   [tinymce-react](https://github.com/tinymce/tinymce-react)
-  
-   [chart.js](https://github.com/chartjs/Chart.js)
-  
-   [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
-  
-   [react-tabs](https://github.com/reactjs/react-tabs)
+   > [react-filepond](https://github.com/pqina/react-filepond), [tinymce-react](https://github.com/tinymce/tinymce-react), [chart.js](https://github.com/chartjs/Chart.js),
+[react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton), [react-tabs](https://github.com/reactjs/react-tabs)
 
 ## Getting Started
 To set up and run the websites locally, follow these steps:
