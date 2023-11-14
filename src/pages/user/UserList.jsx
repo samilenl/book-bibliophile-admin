@@ -15,7 +15,7 @@ const UserList = () => {
       async function fetchUsers () {
         const token = localStorage.getItem("token")
         try {
-          const Users = await fetch(`http://localhost:3000/users`, {
+          const Users = await fetch(`https://book-bilbliophile-api.up.railway.app/users`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

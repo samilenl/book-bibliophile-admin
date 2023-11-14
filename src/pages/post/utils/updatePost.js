@@ -12,7 +12,7 @@ const updatePost = async(post, status, id) => {
     }
     formData.append("topics", sTopics)
     const token = localStorage.getItem("token")
-    const response = await fetch(`http://localhost:3000/posts/${id}`, {
+    const response = await fetch(`https://book-bilbliophile-api.up.railway.app/posts/${id}`, {
         method: "PUT",
         headers: {
             "Authorization": `Bearer ${token}`

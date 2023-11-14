@@ -16,7 +16,7 @@ const CommentList = () => {
       const fetchComments = async() => {
         const token = localStorage.getItem("token")
         try {
-          const allPosts = await fetch(`http://localhost:3000/posts/${id}/comments`,  {
+          const allPosts = await fetch(`https://book-bilbliophile-api.up.railway.app/posts/${id}/comments`,  {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

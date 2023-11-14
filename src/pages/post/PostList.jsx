@@ -15,7 +15,7 @@ const PostList = () => {
       async function fetchPosts () {
         const token = localStorage.getItem("token")
         try {
-          const allPosts = await fetch(`http://localhost:3000/posts-admin`, {
+          const allPosts = await fetch(`https://book-bilbliophile-api.up.railway.app/posts-admin`, {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`

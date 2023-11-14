@@ -37,13 +37,13 @@ const PostUpdate = () => {
 
     useEffect(() => {
         const getData = async() => {
-            const thisPost = await fetch(`http://localhost:3000/posts/${id}`)
+            const thisPost = await fetch(`https://book-bilbliophile-api.up.railway.app/posts/${id}`)
             const postInfo = await thisPost.json()
             setTitle(postInfo.post.title)
             setVal(postInfo.post.text)
             setStatus(postInfo.post.published)
             setSelectTopics([...postInfo.post.topics])
-            const topicRes = await fetch("http://localhost:3000/topics")
+            const topicRes = await fetch("https://book-bilbliophile-api.up.railway.app/topics")
             const topicsList = await topicRes.json()
             setTopics(topicsList)
         }

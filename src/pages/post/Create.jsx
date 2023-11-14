@@ -31,7 +31,7 @@ const PostCreate = () => {
 
     useEffect(() => {
         const getTopics = async() => {
-            const topicRes = await fetch("http://localhost:3000/topics")
+            const topicRes = await fetch("https://book-bilbliophile-api.up.railway.app/topics")
             const topicsList = await topicRes.json()
             setTopics(topicsList)
         }

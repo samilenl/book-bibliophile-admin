@@ -13,7 +13,7 @@ const TopicList = () => {
   useEffect( () => {
       async function fetchTopics () {
         try {
-          const allPosts = await fetch(`http://localhost:3000/topics`)
+          const allPosts = await fetch(`https://book-bilbliophile-api.up.railway.app/topics`)
           const infos = await allPosts.json()
           setTopics({
             all: infos,

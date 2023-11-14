@@ -1,6 +1,6 @@
 const deleteTopic = async(id) => {
     const token = localStorage.getItem("token")
-    const response = await fetch(`http://localhost:3000/topics/${id}`, {
+    const response = await fetch(`https://book-bilbliophile-api.up.railway.app/topics/${id}`, {
         method: "DELETE",
         headers: {
             "Authorization": `Bearer ${token}`

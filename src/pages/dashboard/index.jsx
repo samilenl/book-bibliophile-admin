@@ -14,14 +14,14 @@ const Index = () => {
     const fetchUser = async() => {
       const id = localStorage.getItem("id")
       const token = localStorage.getItem("token")
-      const thisUser = await fetch(`http://localhost:3000/users/${id}`, {
+      const thisUser = await fetch(`https://book-bilbliophile-api.up.railway.app/users/${id}`, {
         method: "GET", 
         headers: {
           "Content-Type": "application/json",
           "Authorization": `Bearer ${token}`
         },
       })
-      const posts = await fetch(`http://localhost:3000/posts/recent`)
+      const posts = await fetch(`https://book-bilbliophile-api.up.railway.app/posts/recent`)
       const recentPosts =  await posts.json()
       const data = await thisUser.json()
 

@@ -1,6 +1,6 @@
 const updateUser = async(user) => {
     const token = localStorage.getItem("token")
-    const response = await fetch(`http://localhost:3000/users/${user.id}`, {
+    const response = await fetch(`https://book-bilbliophile-api.up.railway.app/users/${user.id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
