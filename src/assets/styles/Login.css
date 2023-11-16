@@ -56,7 +56,7 @@ label {
 }
 
 input:focus {
-    border-bottom: solid black 1px;
+    border-bottom: solid black 1px !important;
 }
 
 .get-in button {
