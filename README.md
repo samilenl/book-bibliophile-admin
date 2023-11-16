@@ -1,5 +1,9 @@
 # Book Bibliophile Admin
 
+
+[Live version of the site can be found here](https://book-bibliophile-admin.netlify.app/)
+
+
 The Book Bibliophile Admin Website serves as the central hub for managing the blog platform. Administrators have access to powerful features that allow them to create, edit, and delete posts, ensuring the quality and relevance of the content. They can also manage topics, users, and utilize advanced functionalities such as image uploads and rich text editing. The Admin Website streamlines administrative tasks, empowering administrators to efficiently manage the blog platform's content and user base.
 
 ## Features
