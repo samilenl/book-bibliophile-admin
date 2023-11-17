@@ -72,7 +72,7 @@ const PostUpdate = () => {
         
         <div className="tinymce-container">
           <Editor
-            apiKey='tvt9n2whe444mdcicpbcbmmlqmehpu6rxfwsvp28xjzefbrx'
+            apiKey='9mbjhhbfkssvbkw2uuqmib5dbsnmshscdg9zxb4z0pxmiz0g'
             onInit={(event, editor) => {mainText.current = editor}}
             init={{
                 plugins: 'ai mentions anchor autolink charmap codesample emoticons link lists searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed permanentpen footnotes advtable advcode tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss',

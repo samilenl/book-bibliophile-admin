@@ -57,7 +57,7 @@ const PostCreate = () => {
         
         <div className="tinymce-container">
             <Editor
-                apiKey='tvt9n2whe444mdcicpbcbmmlqmehpu6rxfwsvp28xjzefbrx'
+                apiKey='9mbjhhbfkssvbkw2uuqmib5dbsnmshscdg9zxb4z0pxmiz0g'
                 onInit={(event, editor) => {mainText.current = editor}}
                 init={{
                     placeholder: "Content",
